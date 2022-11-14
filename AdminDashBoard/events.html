@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="admin.css">
+    <title>Eco Product e-commerce</title>
+</head>
+<body>
+    <input type="checkbox" id = "nav-toggle">
+    <div class="sidebar">
+        <div class="logo">
+            <span><h2>Eco-Product</h2></span>
+        </div>
+        <div class="sidebar_menu">
+            <ul>
+                <li><a href="../Admindashboard/admin.html"><span class = "las la-igloo"></span><span>Dashboard</span></a></li>
+                <li><a href="../Admindashboard/user.html"><span class = "las la-users"></span><span>Users</span></a></li>
+                <li><a class = "active" href=""><span class = "lab la-ioxhost"></span><span>Events</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id = "This_is_event"></div>
+    <div class="content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class = "las la-bars"></span>
+                </label>
+                Dashboard
+            </h2>
+            <div class="user">
+                <span class="las la-user-alt"></span>
+                <div>
+                    <h3>Admin</h3>
+                    <small>Super Admin</small>
+                </div>
+            </div>
+    </header>
+    <main>
+        <div class="recent_events">
+            <div class="events">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Events</h3>
+                        <button onclick = "check()" id = "edit-btn">Edit</button>
+                    </div>
+                    <div class = "card_body">
+                        <div class="table_responsive">
+                            <table width = "100%">
+                                <thead>
+                                    <tr>
+                                        <td>Event ID</td>
+                                        <td>Event name</td>
+                                        <td>Organizer</td>
+                                        <td>Date</td>
+                                    </tr>
+                                    <tr>
+                                        <td>101</td>
+                                        <td>Paperless</td>
+                                        <td>Earth Justic</td>
+                                        <td>20-12-2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>123</td>
+                                        <td>Green Festival </td>
+                                        <td>Green Peace</td>
+                                        <td>18-05-2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>321</td>
+                                        <td>Earth Day</td>
+                                        <td>Sierra Club Foundation</td>
+                                        <td>17-10-2020</td>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+</body>
+</html>

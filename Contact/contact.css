@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 700px;
+}
+
+/*hearder & navigation styleing*/
+.topnav {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 2px 60px;
+    background-color: #99d98c;
+}
+.logo img {
+    width: 100%;
+    height: 50px;
+    border-radius: 50%;
+}
+.topnav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 25px;
+}
+.topnav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #264653;
+}
+.topnav a:hover {
+    color: #fff;
+}
+
+/*content styling*/
+.contact-title{
+    margin-top: 100px;
+    color: #131111;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-title h1{
+    font-size: 30px;
+    line-height: 10px;
+}
+    
+.contact-title h2{
+    font-size: 15px;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 500px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(252, 232, 232);
+    color:rgb(21, 20, 20);
+    font-size: 18px;
+    margin-bottom:16px ;
+}   
+input{
+    height: 50px;
+}
+form .submit{
+    background-color:#ead0d4;
+    border-color: transparent;
+    border-color: rgb(18, 15, 15);
+    color: rgb(27, 24, 24);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    height: 50px;
+    margin-top:20px  ;
+}
+form .submit:hover{
+    background-color: orange;
+    cursor: pointer; 
+}
+
+/*footer styling*/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #a08679;
+    font-family:'poppins',sans-serif;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 100px 200px;
+}
+.col h5 {
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+}
+.col p {
+    font-size: 1.4rem;
+    margin: 0 0 8px 0;
+    color: #222;
+}
+.col a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+.icon i {
+    font-size: 30px;
+    padding-right: 10px;
+}
+footer .follow i:hover{
+    color: #24617b;
+}
+footer a:hover {
+    color: #247ba0;
+}
